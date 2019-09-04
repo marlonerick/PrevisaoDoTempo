@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../imagens/fundo1.jpg");
+    background-position: 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+input {
+    height: 55px;
+    width: 400px;
+    margin: 5px 5px 5px 5px;
+    /*background-color: rgba(255, 255, 255, 0.01); Transparente*/
+}
+
+div#corpo-form {
+    width: 420px;
+    margin: 90px auto 10px auto;
+    padding: 5px 5px 5px 5px;
+}
+
+div#corpo-form h1 {
+    text-align: center;
+}
+
+div#corpo-form-cad h1 {
+    text-align: center;
+}
+
+div#corpo-form a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+div#corpo-form a:hover {
+    text-decoration: underline;
+}
+
+div#corpo-form label {
+    padding: 1px 5px;
+}
+
+div#corpo-form-cad {
+    width: 420px;
+    padding: 50px 0px 0px 0px;
+    margin: 0px auto 0px auto;
+}
+
+div#corpo-form-cad label {
+    padding: 0px 5px;
+}
+
+div#sucesso {
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(50, 205, 50, .6);
+    border: 1px solid rgb(0, 255, 0);
+}
+
+div.msg-erro {
+    width: 420px;
+    margin: 70px auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(241, 28, 75, 0.6);
+    border-radius: 5px;
+}
+
+.msg-erro-two {
+    width: auto;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+}

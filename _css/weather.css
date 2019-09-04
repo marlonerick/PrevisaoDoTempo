@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left bottom, #ff6400, #fc8500, #f6a300, #edbf00, #e1d919);
+    background-position: 60% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+div#home-form {
+    width: 420px;
+    margin: 20px auto 10px auto;
+    padding: 5px 5px 5px 5px;
+}
+
+div#home-form h1 {
+    font-family: 40pt;
+    text-align: center;
+    color: oragen;
+}
+
+div#home-form h2 {
+    text-align: center;
+    color: white;
+}
+
+form#form-logout {
+    width: auto;
+    height: 60px;
+    background: rgba(243, 89, 0, 0.2);
+}
+
+div#menu p {
+    display: inline-block;
+    width: 230px;
+    text-align: justify;
+    overflow: hidden;
+    margin: 5px 5px 5px 5px;
+}
+
+div#menu button {
+    margin: 0px 10px 45px 0px;
+}
+
+div#info img {
+    text-align: center;
+}
+
+div#cap-form {
+    width: auto;
+    height: auto;
+    margin: 0px 20px 0px 0px;
+    padding: 5px 10px 5px 10px;
+}
+
+div#cap-form-2 {
+    width: auto;
+    height: auto;
+    margin: 45px 20px 0px 0px;
+    padding: 5px 10px 5px 10px;
+}
+
+div#cap-form h2 {
+    text-align: left;
+    color: white;
+}
+
+div#cap-form p {
+    margin: 0px 0px 15px 2px;
+}
+
+#formulario {
+    margin-top: 25px;
+    padding: 5px 5px 5px 5px;
+    width: 48%;
+    float: left;
+    margin-left: 5px;
+}
+
+#formulario2 {
+    margin-top: 25px;
+    padding: 5px 5px 5px 5px;
+    width: 48%;
+    float: right;
+    margin-right: 5px;
+}
+
+.bar {
+    margin-top: 50px;
+    border-color: white;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+
+.bar-orange {
+    margin-top: 10px;
+    border-color: black;
+    border-bottom: 15px normal white;
+    box-sizing: border-box;
+}
+
+.search-box {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.search-btn {
+    background-image: url(../_icones/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    color: white;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 4px 4px;
+    top: 1px;
+    position: absolute;
+    right: 5px;
+}
+
+.search-txt {
+    width: 400px;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px;
+    font-size: 15px;
+    transition: -0.5s;
+    line-height: 0px;
+}
+
+.info-city {
+    padding: 20px 35px 15px 35px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+}
